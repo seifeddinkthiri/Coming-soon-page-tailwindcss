@@ -1,0 +1,19 @@
+{
+  "name": "LearnTailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "npx tailwind build tailwind.css -o style.css",
+    "build": "env NODE_ENV=production npx tailwind build ./src/style.css -o ./public/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "tailwindcss": "^1.4.6",
+    "tailwindcss-multi-theme": "^1.0.4"
+  }
+}
